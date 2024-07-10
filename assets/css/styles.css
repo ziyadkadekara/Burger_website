@@ -704,8 +704,15 @@ img {
   }
 
   .popular__container{
-
+    grid-template-columns: repeat(2,160px);
+    justify-content: center;
   }
+  .contact{
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  
 }
 
 /* For large devices */
