@@ -70,7 +70,7 @@ const sr = ScrollReveal({
     //reset:true,
 })
 
-sr.reveal(`.home__data`);
+sr.reveal(`.home__data`)
 sr.reveal(`.home__dish`, { delay: 500, distance: '100px', origin: 'bottom' })
 sr.reveal(`.home__burger`, { delay: 1200, distance: '100px', duration: 1500 })
 sr.reveal(`.home__ingredient`, { delay: 1600, interval: 100 })
